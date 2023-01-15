@@ -1,0 +1,396 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/* global */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+ul {
+    list-style: none;
+}
+
+/* navbar styles strt */
+.navbar {
+    position: absolute;
+    margin-top: 55px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #424242;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    margin-right: 240px;
+}
+
+.nav-links li {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0 30px;
+
+
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 228px;
+}
+
+/* navbar styles end */
+
+/* header styles strt */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-content {
+    width: 850px;
+    height: 225px;
+    margin-top: 205px;
+    text-align: center;
+}
+
+.header-content h2 {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.header-content p {
+    color: #727272;
+    margin-top: 10px;
+}
+
+.em {
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: coral;
+    border-radius: 5px;
+    border: none;
+    margin-top: 53px;
+}
+
+/* header styles end */
+
+/* banner  styles strt*/
+.banner {
+    width: 1440px;
+    height: 700px;
+    margin-top: 150px;
+    margin-left: 240px;
+    margin-right: 240px;
+
+}
+
+.banner img {
+    width: 100%;
+    height: 80%;
+    align-items: center;
+}
+
+/* banner styles end */
+
+
+/* features styles */
+.features-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 80px;
+}
+
+.features-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-left: 300px;
+}
+
+.features-images img {
+    width: 340px;
+    height: 340px;
+}
+
+.features-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.features-details h2 {
+    font-size: 45px;
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+
+#clr-first {
+    color: #727272;
+}
+
+#clr-second {
+    color: #FF900E;
+}
+
+.features-details p {
+    width: 537px;
+    height: 78px;
+    color: #727272;
+}
+
+/* features styles end */
+
+/* Services section style start here */
+.container {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.services {
+    width: 100%;
+    display: flex;
+    gap: 55px;
+    margin-top: 130px;
+}
+
+.services-content {
+    width: 45%;
+    height: auto;
+
+}
+
+.services-content p {
+    font-size: 16px;
+    color: #727272;
+    margin-top: 27px;
+    margin-bottom: 27px;
+
+}
+
+.service-title {
+    border-left: 3px solid #FF900E;
+    margin-bottom: 24px;
+}
+
+.service-title h1 {
+    font-size: 45px;
+    line-height: 50px;
+    margin-left: 10px;
+}
+
+.service {
+    width: 100%;
+    height: 110px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.service h4 {
+    margin-top: -10px;
+}
+
+.service p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.exprience {
+    width: 250px;
+    height: 100px;
+    background-color: #FF900E;
+    color: #ffffff;
+    position: relative;
+    margin-top: -150px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 46px;
+
+}
+
+.exprience h1 {
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.exprience p {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: -10px;
+}
+
+/* fact styles strt */
+.fact-container {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.fact-title {
+    width: 550px;
+    margin-top: 130px;
+}
+
+.fact-title h1 {
+    font-size: 45px;
+    color: #131313;
+    
+}
+
+.fact-title p {
+    color: #727272;
+}
+
+.fact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 125px;
+}
+
+.fact {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    margin-top: 70px;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    border-radius: 5px;
+}
+
+.fact img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    color: #fff;
+    background: #000;
+    height: 45px;
+    margin-top: 25px;
+    transition: 1s;
+    border-radius: 5px;
+}
+/* animation added for bonus strt */
+.fact:nth-child(1) img{
+    box-shadow: 0 0 0 400px whitesmoke;
+    background: whitesmoke;
+}
+.fact:nth-child(1):hover img{
+    box-shadow: 0 0 0 0 #e91e63;
+}
+.fact:nth-child(2) img{
+    box-shadow: 0 0 0 400px whitesmoke;
+    background: whitesmoke;
+}
+.fact:nth-child(2):hover img{
+    box-shadow: 0 0 0 0 #5b1ee9;
+}
+.fact:nth-child(3) img{
+    box-shadow: 0 0 0 400px whitesmoke;
+    background: whitesmoke;
+}
+.fact:nth-child(3):hover img{
+    box-shadow: 0 0 0 0 #FF900E;
+}
+.fact:nth-child(4) img{
+    box-shadow: 0 0 0 400px whitesmoke;
+    background: whitesmoke;
+}
+.fact:nth-child(4):hover img{
+    box-shadow: 0 0 0 0 #1ee932;
+}
+/* animation added for bonus end */
+.fact h1 {
+    color: #424242;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.fact p {
+    color: #727272;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+/* fact styles ends */
+/* sponspors styles strt  */
+
+.sponspors-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.sponspors-title h1{
+    color: #131313;
+    font-size: 60px;
+}
+.sponspors-title p{
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+    width: 550px;
+    text-align: center;
+    margin-top: 24px;
+}
+.sponspore-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+.sponspore{
+    width: 165px;
+}
+.sponspore img{
+    width: 100%;
+}
+
+/* sponspors styles ends */
+
+/* footer styles strt */
+.footer{
+    width: 100%;
+    color: #424242;
+    padding: 20px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+/* footer styles ends */
