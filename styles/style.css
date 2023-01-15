@@ -242,6 +242,7 @@ header {
     font-weight: 500;
     margin-bottom: -10px;
 }
+
 /* service styles end */
 
 /* fact styles strt */
@@ -259,7 +260,7 @@ header {
 .fact-title h1 {
     font-size: 45px;
     color: #131313;
-    
+
 }
 
 .fact-title p {
@@ -286,7 +287,7 @@ header {
     margin-top: 70px;
     overflow: hidden;
     box-sizing: border-box;
-    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
     border-radius: 5px;
 }
 
@@ -303,35 +304,44 @@ header {
     transition: 1s;
     border-radius: 5px;
 }
+
 /* animation added for bonus strt */
-.fact:nth-child(1) img{
+.fact:nth-child(1) img {
     box-shadow: 0 0 0 400px whitesmoke;
     background: whitesmoke;
 }
-.fact:nth-child(1):hover img{
+
+.fact:nth-child(1):hover img {
     box-shadow: 0 0 0 0 #e91e63;
 }
-.fact:nth-child(2) img{
+
+.fact:nth-child(2) img {
     box-shadow: 0 0 0 400px whitesmoke;
     background: whitesmoke;
 }
-.fact:nth-child(2):hover img{
+
+.fact:nth-child(2):hover img {
     box-shadow: 0 0 0 0 #5b1ee9;
 }
-.fact:nth-child(3) img{
+
+.fact:nth-child(3) img {
     box-shadow: 0 0 0 400px whitesmoke;
     background: whitesmoke;
 }
-.fact:nth-child(3):hover img{
+
+.fact:nth-child(3):hover img {
     box-shadow: 0 0 0 0 #FF900E;
 }
-.fact:nth-child(4) img{
+
+.fact:nth-child(4) img {
     box-shadow: 0 0 0 400px whitesmoke;
     background: whitesmoke;
 }
-.fact:nth-child(4):hover img{
+
+.fact:nth-child(4):hover img {
     box-shadow: 0 0 0 0 #1ee932;
 }
+
 /* animation added for bonus end */
 .fact h1 {
     color: #424242;
@@ -351,18 +361,20 @@ header {
 /* fact styles ends */
 /* sponspor styles strt  */
 
-.sponspors-title{
+.sponspors-title {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 100px;
 }
-.sponspors-title h1{
+
+.sponspors-title h1 {
     color: #131313;
     font-size: 60px;
 }
-.sponspors-title p{
+
+.sponspors-title p {
     font-size: 16px;
     color: #727272;
     margin-bottom: 30px;
@@ -370,24 +382,27 @@ header {
     text-align: center;
     margin-top: 24px;
 }
-.sponspore-content{
+
+.sponspore-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 100px;
     margin-top: 50px;
 }
-.sponspore{
+
+.sponspore {
     width: 165px;
 }
-.sponspore img{
+
+.sponspore img {
     width: 100%;
 }
 
 /* sponspors styles ends */
 
 /* footer styles strt */
-.footer{
+.footer {
     width: 100%;
     color: #424242;
     padding: 20px;
@@ -398,59 +413,66 @@ header {
 /* footer styles ends */
 /* responsive for mobile */
 @media screen and (max-width:576px) {
-    
-    .container{
+
+    .container {
         width: 100%;
-        
+
     }
-    header{
+
+    header {
         height: 710px;
     }
-    .nav-bar{
+
+    .nav-bar {
         flex-direction: column;
     }
-    .logo{
+
+    .logo {
         margin: 0;
         font-size: 45px;
     }
+
     .nav-links {
         display: block;
         text-align: center;
         margin-top: 20px;
     }
-    .header-content h2{
+
+    .header-content h2 {
         font-size: 35px;
     }
-    .header-content p{
+
+    .header-content p {
         margin-bottom: 15px;
     }
-    
-    .em{
+
+    .em {
         padding: 10px 15px;
         font-size: 16px;
     }
-    .banner{
+
+    .banner {
         height: 400px;
         width: 400px;
         margin: 0;
     }
+
     /* feateres container */
 
 
-    .features-container{
+    .features-container {
         flex-direction: column;
         align-items: center;
     }
+
     .features-images {
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         margin: 0;
     }
-    .features-details{
+
+    .features-details {
         align-items: center;
         text-align: center;
-    }
-    .features-details p{
-      
     }
 
     /* Services section */
@@ -459,18 +481,28 @@ header {
         align-items: center;
         justify-content: center;
     }
-    .service{
-        width: 80%;
-        margin: 20px auto;
+
+    .service-details {
+        width: 300px;
+        height: 100px;
     }
-    .service p{
+
+    .service {
+        width: 500px;
+        margin: 10px auto;
+        padding: 0
+    }
+
+    .service p {
         margin-bottom: 15px;
     }
-    .services-img img{
+
+    .services-img img {
         width: 100%;
         height: 100%;
     }
-    .exprience{
+
+    .exprience {
         margin: 25px auto;
     }
 
@@ -482,7 +514,8 @@ header {
         margin: 0;
         justify-content: center;
     }
-    .fact-content{
+
+    .fact-content {
         width: 400px;
         flex-direction: column;
         gap: 0;
@@ -490,25 +523,28 @@ header {
     }
 
     /* spoonsore  */
-    .sponspore-content{
+    .sponspore-content {
         display: flex;
         flex-direction: column;
         gap: 60px;
     }
 
-    .fedback-title,.sponspors-title h1{
+    .fedback-title,
+    .sponspors-title h1 {
         font-size: 50px;
     }
+
     .sponspors-title p {
         width: 100%;
     }
 
     /* footer section */
-    .container{
+    .container {
         width: auto;
         margin-top: 50px;
     }
-    .container p{
+
+    .container p {
         width: 400px;
     }
 }
