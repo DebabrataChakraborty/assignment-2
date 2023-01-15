@@ -50,6 +50,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: rgba(255, 144, 14, 0.1);
 
 }
 
@@ -104,7 +105,7 @@ header {
 /* banner styles end */
 
 
-/* features styles */
+/* features styles strt */
 .features-container {
     width: 100%;
     display: flex;
@@ -156,7 +157,7 @@ header {
 
 /* features styles end */
 
-/* Services section style start here */
+/* Service style start */
 .container {
     width: 1200px;
     height: auto;
@@ -241,6 +242,7 @@ header {
     font-weight: 500;
     margin-bottom: -10px;
 }
+/* service styles end */
 
 /* fact styles strt */
 .fact-container {
@@ -347,7 +349,7 @@ header {
 }
 
 /* fact styles ends */
-/* sponspors styles strt  */
+/* sponspor styles strt  */
 
 .sponspors-title{
     display: flex;
@@ -394,3 +396,119 @@ header {
 }
 
 /* footer styles ends */
+/* responsive for mobile */
+@media screen and (max-width:576px) {
+    
+    .container{
+        width: 100%;
+        
+    }
+    header{
+        height: 710px;
+    }
+    .nav-bar{
+        flex-direction: column;
+    }
+    .logo{
+        margin: 0;
+        font-size: 45px;
+    }
+    .nav-links {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .header-content h2{
+        font-size: 35px;
+    }
+    .header-content p{
+        margin-bottom: 15px;
+    }
+    
+    .em{
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+    .banner{
+        height: 400px;
+        width: 400px;
+        margin: 0;
+    }
+    /* feateres container */
+
+
+    .features-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .features-images {
+        grid-template-columns: repeat(1,1fr);
+        margin: 0;
+    }
+    .features-details{
+        align-items: center;
+        text-align: center;
+    }
+    .features-details p{
+      
+    }
+
+    /* Services section */
+    .services {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .service{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .service p{
+        margin-bottom: 15px;
+    }
+    .services-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .exprience{
+        margin: 25px auto;
+    }
+
+    /* Fact section */
+
+    .fact-title {
+        width: 400px;
+        text-align: center;
+        margin: 0;
+        justify-content: center;
+    }
+    .fact-content{
+        width: 400px;
+        flex-direction: column;
+        gap: 0;
+        margin: 0;
+    }
+
+    /* spoonsore  */
+    .sponspore-content{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .fedback-title,.sponspors-title h1{
+        font-size: 50px;
+    }
+    .sponspors-title p {
+        width: 100%;
+    }
+
+    /* footer section */
+    .container{
+        width: auto;
+        margin-top: 50px;
+    }
+    .container p{
+        width: 400px;
+    }
+}
